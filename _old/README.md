@@ -1,2 +1,0 @@
-# savannahaa
-Savannah AA Meetings
