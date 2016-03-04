@@ -10,7 +10,7 @@
     }
 
     .jumbotron {
-    	background-image: url(".//img/bonaventure.jpg");
+    	background-image: url("..//img/bonaventure.jpg");
     	background-size: cover;
     	color: #fff !important;
     }

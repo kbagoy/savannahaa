@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Alcoholics Anonymous, Savannah</title>
+    <description>ALCOHOLICS ANONYMOUS is a fellowship of men and women who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism.
 </description>
-    <link>http://kbagoy.github.io/savannahaa//</link>
-    <atom:link href="http://kbagoy.github.io/savannahaa//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 22:28:20 -0500</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 22:28:20 -0500</lastBuildDate>
+    <link>http://www.savannahaa.com/</link>
+    <atom:link href="http://www.savannahaa.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 03 Mar 2016 22:33:08 -0500</pubDate>
+    <lastBuildDate>Thu, 03 Mar 2016 22:33:08 -0500</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 03 Mar 2016 17:34:11 -0500</pubDate>
-        <link>http://kbagoy.github.io/savannahaa//jekyll/update/2016/03/03/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://kbagoy.github.io/savannahaa//jekyll/update/2016/03/03/welcome-to-jekyll.html</guid>
+        <link>http://www.savannahaa.com/jekyll/update/2016/03/03/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://www.savannahaa.com/jekyll/update/2016/03/03/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
