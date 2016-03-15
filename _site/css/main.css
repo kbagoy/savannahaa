@@ -21,7 +21,7 @@
     }
 
     section {
-    	padding: 100px;
+    	padding: 10%;
     }
 
     ol {
@@ -50,6 +50,10 @@
 
     #events h4 {
         margin-top: 20px;
+    }
+
+    #dloadmtg {
+        margin-top: 150px;
     }
 
 
