@@ -10,8 +10,8 @@
   <meta name="description" content="ALCOHOLICS ANONYMOUS is a fellowship of men and women who share their experience, strength and hope with each other that they may solve their common problem and help others to recover from alcoholism.
 ">
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="canonical" href="http://www.savannahaa.com/">
   <link rel="alternate" type="application/rss+xml" title="Alcoholics Anonymous, Savannah" href="http://www.savannahaa.com/feed.xml">
  
@@ -25,28 +25,33 @@
 
     <header>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Savannah Area Intergroup</a>
-                </div>
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="meetings.html">Meetings</a></li>
-                    <li><a href="index.html#events">Events</a></li>
-                    <li><a href="index.html#links">Links</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Savannah, Georgia | (912) 356-3688 (24 hours a day)</a></li>
-                </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Savannah Area Intergroup</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="meetings.html">Meetings</a></li>
+        <li><a href="index.html#events">Events</a></li>
+        <li><a href="index.html#links">Links</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="tel:+19123563688">Savannah, Georgia | (912) 356-3688 (24 hours a day)</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 </header>
 
@@ -89,68 +94,83 @@
 
 <section class="blue">
     <div class="container">
-        <div>
-            <h2 class="text-uppercase">The 12 Steps of Alcoholics Anonymous</h2>
-            <ol>
-                <li>We admitted we were powerless over alcohol - that our lives had become unmanageable.</li>
-                <li>Came to believe that a Power greater than ourselves could restore us to sanity.</li>
-                <li>Made a decision to turn our will and our lives over to the care of God as we understood Him.</li>
-                <li>Made a searching and fearless moral inventory of ourselves.</li>
-                <li>Admitted to God, to ourselves and to another human being the exact nature of our wrongs.</li>
-                <li>Were entirely ready to have God remove all these defects of character.</li>
-                <li>Humbly asked Him to remove our shortcomings.</li>
-                <li>Made a list of all persons we had harmed, and became willing to make amends to them all.</li>
-                <li>Made direct amends to such people wherever possible, except when to do so would injure them or others.</li>
-                <li>Continued to take personal inventory and when we were wrong promptly admitted it.</li>
-                <li>Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.</li>
-                <li>Having had a spiritual awakening as the result of these steps, we tried to carry this message to alcoholics and to practice these principles in all our affairs.</li>
-            </ol>
-            <p class="small">Reprinted from the book Alcoholics Anonymous (The Big Book) with permission of A.A. World Services, Inc.</p>
-
+        
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="text-uppercase">The 12 Steps of Alcoholics Anonymous</h2>
+                <p class="small">Reprinted from the book Alcoholics Anonymous (The Big Book) with permission of A.A. World Services, Inc.</p>
             </div>
-        </section>
-        <section>
-    <div class="container">
+            <div class="col-md-8 twelve">
+                <ol>
+                    <li><span>1. </span>We admitted we were powerless over alcohol - that our lives had become unmanageable.</li>
+                    <li><span>2. </span>Came to believe that a Power greater than ourselves could restore us to sanity.</li>
+                    <li><span>3. </span>Made a decision to turn our will and our lives over to the care of God as we understood Him.</li>
+                    <li><span>4. </span>Made a searching and fearless moral inventory of ourselves.</li>
+                    <li><span>5. </span>Admitted to God, to ourselves and to another human being the exact nature of our wrongs.</li>
+                    <li><span>6. </span>Were entirely ready to have God remove all these defects of character.</li>
+                    <li><span>7. </span>Humbly asked Him to remove our shortcomings.</li>
+                    <li><span>8. </span>Made a list of all persons we had harmed, and became willing to make amends to them all.</li>
+                    <li><span>9. </span>Made direct amends to such people wherever possible, except when to do so would injure them or others.</li>
+                    <li><span>10. </span>Continued to take personal inventory and when we were wrong promptly admitted it.</li>
+                    <li><span>11. </span>Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.</li>
+                    <li><span>12. </span>Having had a spiritual awakening as the result of these steps, we tried to carry this message to alcoholics and to practice these principles in all our affairs.</li>
+                </ol>
+                
+            </div>
 
-            <h2 class="text-uppercase">The 12 Traditions of Alcoholics Anonymous</h2>
-            <ol>
-                <li>Our common welfare should come first; personal recovery depends upon A.A. unity.</li>
-                <li>For our group purpose there is but one ultimate authority - a loving God as He may express Himself in our group conscience. Our leaders are but trusted servants; they do not govern.</li>
-                <li>The only requirement for A.A. membership is a desire to stop drinking.</li>
-                <li>Each group should be autonomous except in matters affecting other groups or A.A. as a whole.</li>
-                <li>Each group has but one primary purpose-to carry its message to the alcoholic who still suffers.</li>
-                <li>An A.A. group ought never endorse, finance or lend the A.A. name to any related facility or outside enterprise, lest problems of money, property and prestige divert us from our primary purpose.</li>
-                <li>Every A.A. group ought to be fully self-supporting, declining outside contributions..</li>
-                <li>Alcoholics Anonymous should remain forever nonprofessional, but our service centers may employ special workers.</li>
-                <li>A.A., as such, ought never be organized; but we may create service boards or committees directly responsible to those they serve.</li>
-                <li>Alcoholics Anonymous has no opinion on outside issues; hence the A.A. name ought never be drawn into public controversy.</li>
-                <li>Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio and films.</li>
-                <li>Anonymity is the spiritual foundation of all our traditions, ever reminding us to place principles before personalities.</li>
-            </ol>
-            <p class="small">Reprinted from the book Alcoholics Anonymous (The Big Book) with permission of A.A. World Services, Inc.</p>
+        </div>
+</section>
+<section>
+    <div class="container">
+            <div class="col-md-3">
+                <h2 class="text-uppercase">The 12 Traditions of Alcoholics Anonymous</h2>
+                <p class="small">Reprinted from the book Alcoholics Anonymous (The Big Book) with permission of A.A. World Services, Inc.</p>
+            </div>
+            <div class="col-md-8 twelve">
+                <ol>
+                    <li><span>1. </span>Our common welfare should come first; personal recovery depends upon A.A. unity.</li>
+                    <li><span>2. </span>For our group purpose there is but one ultimate authority - a loving God as He may express Himself in our group conscience. Our leaders are but trusted servants; they do not govern.</li>
+                    <li><span>3. </span>The only requirement for A.A. membership is a desire to stop drinking.</li>
+                    <li><span>4. </span>Each group should be autonomous except in matters affecting other groups or A.A. as a whole.</li>
+                    <li><span>5. </span>Each group has but one primary purpose-to carry its message to the alcoholic who still suffers.</li>
+                    <li><span>6. </span>An A.A. group ought never endorse, finance or lend the A.A. name to any related facility or outside enterprise, lest problems of money, property and prestige divert us from our primary purpose.</li>
+                    <li><span>7. </span>Every A.A. group ought to be fully self-supporting, declining outside contributions..</li>
+                    <li><span>8. </span>Alcoholics Anonymous should remain forever nonprofessional, but our service centers may employ special workers.</li>
+                    <li><span>9. </span>A.A., as such, ought never be organized; but we may create service boards or committees directly responsible to those they serve.</li>
+                    <li><span>10. </span>Alcoholics Anonymous has no opinion on outside issues; hence the A.A. name ought never be drawn into public controversy.</li>
+                    <li><span>11. </span>Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio and films.</li>
+                    <li><span>12. </span>Anonymity is the spiritual foundation of all our traditions, ever reminding us to place principles before personalities.</li>
+                </ol>
+            </div>
+            </div>
 
             </div>
         </section>
 
         <section class="blue">
     <div class="container">
-
-            <h2 class="text-uppercase">The 12 Concepts of Alcoholics Anonymous</h2>
-            <ol>
-                <li>Final responsibility and ultimate authority for A.A. world services should always reside in the collective conscience of our whole Fellowship.</li>
-                <li>The General Service Conference of A.A. has become, for nearly every practical purpose, the active voice and the effective conscience of our whole society in its world affairs.</li>
-                <li>To insure effective leadership, we should endow each element of A.A. - the Conference, the General Service Board and its service corporations, staffs, committees, and executives - with a traditional "Right of Decision."</li>
-                <li>At all responsible levels, we ought to maintain a traditional "Right of Participation," allowing a voting representation in reasonable proportion to the responsibility that each must discharge.</li>
-                <li>Throughout our structure, a traditional "Right of Appeal" ought to prevail, so that minority opinion will be heard and personal grievances receive careful consideration.</li>
-                <li>The Conference recognizes that the chief initiative and active responsibility in most world service matters should be exercised by the trustee members of the Conference acting as the General Service Board.</li>
-                <li>The Charter and Bylaws of the General Service Board are legal instruments, empowering the trustees to manage and conduct world service affairs. The Conference Charter is not a legal document; it relies upon tradition and the A.A. purse for final effectiveness.</li>
-                <li>The trustees are the principal planners and administrators of over-all policy and finance. They have custodial oversight of the separately incorporated and constantly active services, exercising this through their ability to elect all the directors of these entities.</li>
-                <li>ood service leadership at all levels is indispensable for our future functioning and safety. Primary world service leadership, once exercised by the founders, must necessarily be assumed by the trustees.</li>
-                <li>Every service responsibility should be matched by an equal service authority, with the scope of such authority well defined.</li>
-                <li>The trustees should always have the best possible committees, corporate service directors, executives, staffs, and consultants. Composition, qualifications, induction procedures, and rights and duties will always be matters of serious concern.</li>
-                <li>The Conference shall observe the spirit of A.A. tradition, taking care that it never becomes the seat of perilous wealth or power; that sufficient operating funds and reserve be its prudent financial principle; that it place none of its members in a position of unqualified authority over others; that it reach all important decisions by discussion, vote, and whenever possible, substantial unanimity; that its actions never be personally punitive nor an incitement to public controversy; that it never perform acts of government; that, like the Society it serves, it will always remain democratic in thought and action.</li>
-            </ol>
-            <p class="small">Twelve Concepts for World Service are copyrighted by AAWS, Inc., and are used with permission.</p>
+            <div class="row">
+            <div class="col-md-3">
+                <h2 class="text-uppercase">The 12 Concepts of Alcoholics Anonymous</h2>
+                <p class="small">Twelve Concepts for World Service are copyrighted by AAWS, Inc., and are used with permission.</p>
+            </div>
+            <div class="col-md-8 twelve">
+                <ol>
+                    <li><span>1. </span>Final responsibility and ultimate authority for A.A. world services should always reside in the collective conscience of our whole Fellowship.</li>
+                    <li><span>2. </span>The General Service Conference of A.A. has become, for nearly every practical purpose, the active voice and the effective conscience of our whole society in its world affairs.</li>
+                    <li><span>3. </span>To insure effective leadership, we should endow each element of A.A. - the Conference, the General Service Board and its service corporations, staffs, committees, and executives - with a traditional "Right of Decision."</li>
+                    <li><span>4. </span>At all responsible levels, we ought to maintain a traditional "Right of Participation," allowing a voting representation in reasonable proportion to the responsibility that each must discharge.</li>
+                    <li><span>5. </span>Throughout our structure, a traditional "Right of Appeal" ought to prevail, so that minority opinion will be heard and personal grievances receive careful consideration.</li>
+                    <li><span>6. </span>The Conference recognizes that the chief initiative and active responsibility in most world service matters should be exercised by the trustee members of the Conference acting as the General Service Board.</li>
+                    <li><span>7. </span>The Charter and Bylaws of the General Service Board are legal instruments, empowering the trustees to manage and conduct world service affairs. The Conference Charter is not a legal document; it relies upon tradition and the A.A. purse for final effectiveness.</li>
+                    <li><span>8. </span>The trustees are the principal planners and administrators of over-all policy and finance. They have custodial oversight of the separately incorporated and constantly active services, exercising this through their ability to elect all the directors of these entities.</li>
+                    <li><span>9. </span>Good service leadership at all levels is indispensable for our future functioning and safety. Primary world service leadership, once exercised by the founders, must necessarily be assumed by the trustees.</li>
+                    <li><span>10. </span>Every service responsibility should be matched by an equal service authority, with the scope of such authority well defined.</li>
+                    <li><span>11. </span>The trustees should always have the best possible committees, corporate service directors, executives, staffs, and consultants. Composition, qualifications, induction procedures, and rights and duties will always be matters of serious concern.</li>
+                    <li><span>12. </span>The Conference shall observe the spirit of A.A. tradition, taking care that it never becomes the seat of perilous wealth or power; that sufficient operating funds and reserve be its prudent financial principle; that it place none of its members in a position of unqualified authority over others; that it reach all important decisions by discussion, vote, and whenever possible, substantial unanimity; that its actions never be personally punitive nor an incitement to public controversy; that it never perform acts of government; that, like the Society it serves, it will always remain democratic in thought and action.</li>
+                </ol>
+            </div>
+        </div>
         </div>
     </div>
 </section>
