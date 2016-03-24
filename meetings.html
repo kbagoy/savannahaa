@@ -17,35 +17,12 @@ layout: default
 
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs nav-justified" role="tablist">
-                    <li role="presentation" class="active"><a href="#monday" aria-controls="monday" role="tab" data-toggle="tab">Monday</a></li>
-                    <li role="presentation"><a href="#tuesday" aria-controls="tuesday" role="tab" data-toggle="tab">Tuesday</a></li>
-                    <li role="presentation"><a href="#wednesday" aria-controls="wednesday" role="tab" data-toggle="tab">Wednesday</a></li>
-                    <li role="presentation"><a href="#thursday" aria-controls="thursday" role="tab" data-toggle="tab">Thursday</a></li>
-                    <li role="presentation"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday</a></li>
-                    <li role="presentation"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday</a></li>
-                    <li role="presentation"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday</a></li>
-                </ul>
-
-                <!-- Tab panes -->
-                <!-- To edit meetings, edit the days of the week files in the includes folder -->
-                <div class="tab-content">
-                    {% include monday.html %}
-                    {% include tuesday.html %}
-                    {% include wednesday.html %}
-                    {% include thursday.html %}
-                    {% include friday.html %}
-                    {% include saturday.html %}
-                    {% include sunday.html %}
-                </div>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-12 well">
                 <h4>Meeting Codes</h4>
-                <ul class="small">
+                <ul class="small list-inline">
                     <li>X = Closed Meeting (alcoholics only)</li>
                     <li>O = Open Meeting (all welcome)</li>
+                    <li>G = LGBT
                     <li>YP= Young People (all welcome)</li>
                     <li>BB = Big Book Study</li>
                     <li>S = Speaker Meeting</li>
@@ -56,6 +33,31 @@ layout: default
                     <li>SP = Spanish Speaking</li>
                 </ul>
             </div>
+            <div class="col-md-12">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday</a></li>
+                    <li role="presentation"><a href="#monday" aria-controls="monday" role="tab" data-toggle="tab">Monday</a></li>
+                    <li role="presentation"><a href="#tuesday" aria-controls="tuesday" role="tab" data-toggle="tab">Tuesday</a></li>
+                    <li role="presentation"><a href="#wednesday" aria-controls="wednesday" role="tab" data-toggle="tab">Wednesday</a></li>
+                    <li role="presentation"><a href="#thursday" aria-controls="thursday" role="tab" data-toggle="tab">Thursday</a></li>
+                    <li role="presentation"><a href="#friday" aria-controls="friday" role="tab" data-toggle="tab">Friday</a></li>
+                    <li role="presentation"><a href="#saturday" aria-controls="saturday" role="tab" data-toggle="tab">Saturday</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <!-- To edit meetings, edit the days of the week files in the includes folder -->
+                <div class="tab-content">
+                    {% include sunday.html %}
+                    {% include monday.html %}
+                    {% include tuesday.html %}
+                    {% include wednesday.html %}
+                    {% include thursday.html %}
+                    {% include friday.html %}
+                    {% include saturday.html %}
+                </div>
+            </div>
+            
 
         </div>
 
