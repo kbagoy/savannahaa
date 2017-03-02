@@ -16,29 +16,9 @@
 		<loc>http://savannahaa.com/index.html</loc>
 	</url>
 	<url>
-		<loc>http://savannahaa.com/meetings.html</loc>
+		<loc>http://savannahaa.com/meeting-list</loc>
 	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#sunday</loc>
-	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#monday</loc>
-	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#tuesday</loc>
-	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#wednesday</loc>
-	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#thursday</loc>
-	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#friday</loc>
-	</url>
-	<url>
-		<loc>http://www.savannahaa.com/meetings.html#saturday</loc>
-	</url>
+	
 	<url>
 		<loc>http://savannahaa.com/p-46_if_you_are_a_professional.pdf</loc>
 	</url>
